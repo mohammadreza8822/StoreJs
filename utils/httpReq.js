@@ -1,6 +1,6 @@
 const BASE_URL = "https://fakestoreapi.com";
 
-const postData = async (path, data) => {
+const postData = async (path, data, token) => {
   try {
     const response = await fetch(`${BASE_URL}/${path}`, {
       method: "POST",
