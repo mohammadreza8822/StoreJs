@@ -1,4 +1,4 @@
-import { getCookie } from "./cookie";
+import { getCookie } from "./cookie.js";
 
 const authHandler = () => {
   const cookie = getCookie();
